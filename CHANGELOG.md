@@ -1,0 +1,1 @@
+*please see [Releases](https://codeberg.org/jannis/FitoTrack/releases).*

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2023 Jannis Scheibe <jannis@tadris.de>
+  ~
+  ~ This file is part of FitoTrack
+  ~
+  ~ FitoTrack is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     FitoTrack is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">FitoTrack</string>
+    <string name="stop">Stop</string>
+    <string name="delete">Delete</string>
+    <string name="exporting">Exporting</string>
+    <string name="error">Error</string>
+    <string name="errorGpxExportFailed">The GPX export has failed.</string>
+    <string name="errorExportFailed">The data export has failed.</string>
+    <string name="errorImportFailed">The data import has failed.</string>
+    <string name="shareFile">Share file</string>
+    <string name="initialising">Initialising</string>
+    <string name="workouts">Workouts</string>
+    <string name="locationData">Location data</string>
+    <string name="converting">Converting</string>
+    <string name="finished">Finished</string>
+    <string name="loadingFile">Loading file</string>
+    <string name="chooseBackupFile">Choose Backup-File</string>
+    <string name="importBackupMessage">Back up your current data now if you want to keep it. Restore prior backup now\?</string>
+    <string name="restore">Restore</string>
+    <string name="backup">Backup</string>
+    <string name="setPreferencesTitle">Set Preferences</string>
+    <string name="setPreferencesMessage">You can set your preferred unit system and your weight in the settings.</string>
+    <string name="timeMinuteSingular">Minute</string>
+    <string name="timeMinutePlural">Minutes</string>
+    <string name="timeMinuteShort">min</string>
+    <string name="timeHourSingular">Hour</string>
+    <string name="timeHourPlural">Hours</string>
+    <string name="timeHourShort">h</string>
+    <string name="timeSecondsShort">s</string>
+    <string name="and">and</string>
+    <string name="errorEnterValidNumber">Enter a valid number</string>
+    <string name="errorWorkoutAddFuture">The workout cannot be in the future</string>
+    <string name="errorEnterValidDuration">Enter a valid duration</string>
+    <string name="announcementGPSStatus">GPS Status</string>
+    <string name="announcementWorkoutActions">Workout Actions (pause, resume, etc.)</string>
+    <string name="voiceAnnouncementsTitle">Voice Announcements</string>
+    <string name="pref_voice_announcements_summary">Configure voice prompts that inform you during the workout</string>
+    <string name="pref_announcements_config_title">Announcement Trigger</string>
+    <string name="pref_announcements_config_summary">Choose the time and distance between voice announcements</string>
+    <string name="pref_announcements_content">Content of the announcements</string>
+    <string name="workoutRecordingTypeGps">GPS Workouts</string>
+    <string name="workoutRecordingTypeIndoor">Indoor Workouts</string>
+    <string name="gpsLost">GPS signal lost</string>
+    <string name="gpsFound">GPS signal found</string>
+    <string name="workoutTime">Time</string>
+    <string name="workoutDate">Date</string>
+    <string name="workoutDuration">Duration</string>
+    <string name="workoutAvgDurationLong">Average Duration</string>
+    <string name="workoutDurationSum">Duration sum</string>
+    <string name="workoutPauseDuration">Pause Duration</string>
+    <string name="workoutAvgPauseDuration">Average Pause Duration</string>
+    <string name="workoutPauseDurationSum">Pause Duration sum</string>
+    <string name="workoutStartTime">Start Time</string>
+    <string name="workoutEndTime">End Time</string>
+    <string name="workoutDistance">Distance</string>
+    <string name="workoutRepetitions">Repetitions</string>
+    <string name="workoutSets">Sets</string>
+    <string name="workoutPace">Pace</string>
+    <string name="workoutRoute">Route</string>
+    <string name="workoutSpeed">Speed</string>
+    <string name="workoutFrequency">Frequency</string>
+    <string name="workoutAvgFrequencyShort">Avg. Frequency</string>
+    <string name="workoutAvgFrequencyLong">Average Frequency</string>
+    <string name="workoutCurrentFrequency">Current Frequency</string>
+    <string name="workoutMaxFrequency">Max Frequency</string>
+    <string name="workoutIntensity">Intensity</string>
+    <string name="workoutAvgIntensityShort">Avg. Intensity</string>
+    <string name="workoutMaxIntensity">Max Intensity</string>
+    <string name="workoutAvgSpeedShort">Avg. Speed</string>
+    <string name="workoutAvgSpeedLong">Average Speed</string>
+    <string name="workoutTopSpeed">Top Speed</string>
+    <string name="workoutBurnedEnergy">Calories burned</string>
+    <string name="workoutTotalEnergy">Total Energy</string>
+    <string name="workoutEnergyConsumption">Energy Consumption</string>
+    <string name="workoutHeartRate">Heart Rate</string>
+    <string name="heartRateSensorBattery">Sensor Battery</string>
+    <string name="workoutMaxHeartRate">Max Heart Rate</string>
+    <string name="workoutAvgHeartRate">Avg. heart rate</string>
+    <string name="workoutEdited">This workout has been edited.</string>
+    <string name="uploading">Uploading</string>
+    <string name="enterVerificationCode">Enter Verification Code</string>
+    <string name="authenticationFailed">Authentication failed.</string>
+    <string name="upload">Upload</string>
+    <string name="uploadSuccessful">Upload Successful</string>
+    <string name="uploadFailed">Upload Failed</string>
+    <string name="uploadFailedOsmNotAuthorized">Not authorized, try again</string>
+    <string name="workoutAscent">Ascent</string>
+    <string name="workoutDescent">Descent</string>
+    <string name="workoutMinHeight">Min height</string>
+    <string name="workoutMaxHeight">Max height</string>
+    <string name="height">Height</string>
+    <string name="workoutTypeRunning">Running</string>
+    <string name="workoutTypeWalking">Walking</string>
+    <string name="workoutTypeCycling">Cycling</string>
+    <string name="workoutTypeHiking">Hiking</string>
+    <string name="workoutTypeSkateboarding">Skateboarding</string>
+    <string name="workoutTypeInlineSkating">Inline Skating</string>
+    <string name="workoutTypeRowing">Rowing</string>
+    <string name="workoutTypeSwimming">Swimming</string>
+    <string name="workoutTypeOther">Other</string>
+    <string name="workoutTypeTreadmill">Treadmill</string>
+    <plurals name="workoutStep">
+        <item quantity="one">Step</item>
+        <item quantity="other">Steps</item>
+    </plurals>
+    <string name="workoutTypeRopeSkipping">Rope Skipping</string>
+    <string name="workoutTypeTrampolineJumping">Trampoline Jumping</string>
+    <plurals name="workoutJump">
+        <item quantity="one">Jump</item>
+        <item quantity="other">Jumps</item>
+    </plurals>
+    <string name="workoutTypePushUps">Push ups</string>
+    <plurals name="workoutPushUp">
+        <item quantity="one">Push up</item>
+        <item quantity="other">Push ups</item>
+    </plurals>
+    <string name="workoutTypePullUps">Pull ups</string>
+    <plurals name="workoutPullUp">
+        <item quantity="one">Pull up</item>
+        <item quantity="other">Pull ups</item>
+    </plurals>
+    <string name="unknown">Unknown</string>
+    <string name="workoutTypeAdd">Add</string>
+    <string name="workoutTypeAll">All</string>
+    <string name="type">Type</string>
+    <string name="enterWorkout">Enter Workout</string>
+    <string name="importWorkout">Import Workout</string>
+    <string name="setDuration">Set Duration</string>
+    <string name="recordWorkout">Record Workout</string>
+    <string name="noGpsTitle">GPS disabled</string>
+    <string name="noGpsMessage">Please enable GPS for tracking your workout.</string>
+    <string name="enable">Enable</string>
+    <string name="comment">Comment</string>
+    <string name="enterComment">Enter Comment</string>
+    <string name="okay">Okay</string>
+    <string name="stopRecordingQuestion">Stop Recording?</string>
+    <string name="stopRecordingQuestionMessage">Do you really want to stop the recording?</string>
+    <!-- leave the underscore because "continue" is a java command -->
+    <string name="continue_">Continue</string>
+    <string name="deleteWorkout">Delete Workout</string>
+    <string name="deleteWorkoutMessage">Do you really want to delete the workout?</string>
+    <string name="trackerRunning">Tracker is running</string>
+    <string name="trackerWaitingMessage">Waiting to start workout</string>
+    <string name="trackingInfo">Tracking Info</string>
+    <string name="trackingInfoDescription">Info about the tracker running</string>
+    <string name="cancel">Cancel</string>
+    <string name="exportAsGpxFile">Export as GPX-File</string>
+    <string name="pref_weight">Your Weight</string>
+    <string name="pref_weight_summary">Your weight is needed to calculate the burned calories</string>
+    <string name="pref_step_length">Step Length</string>
+    <string name="pref_unit_system">Preferred system of units</string>
+    <string name="settings">Settings</string>
+    <string name="exportData">Export Data</string>
+    <string name="exportDataSummary">This takes a backup of all workouts</string>
+    <string name="importBackup">Import Data Backup</string>
+    <string name="importBackupSummary">Restore a taken backup</string>
+    <string name="gps">GPS</string>
+    <string name="mapStyle">Map Style</string>
+    <string name="trackStyle">Track Style</string>
+    <string name="prefTrackStyleUsageTitle">Use track coloring automatically</string>
+    <string name="waiting_gps">Waiting for GPS</string>
+    <string name="actionUploadToOSM">Upload to OSM</string>
+    <string name="cut">Cut the first/last 300 m</string>
+    <string name="trackVisibilityPref">Track Visibility</string>
+    <string name="description">Description</string>
+    <string name="ttsNotAvailable">TextToSpeech is not available</string>
+    <string name="pref_announcement_mode">Announcement Mode</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="savedSuccessfully">Saved</string>
+    <string name="savingFailed">Saving failed</string>
+    <string name="info">Info</string>
+    <string name="OpenStreetMapAttribution">© OpenStreetMap contributors</string>
+    <string name="theme">Theme</string>
+    <string name="hintRestart">Please restart the app to apply changes</string>
+    <string name="noComment">No comment</string>
+    <string name="start">Start</string>
+    <string name="cannotStart">Cannot start</string>
+    <string name="add">Add</string>
+    <string name="add_interval">Add Interval</string>
+    <string name="edit_interval">Edit Interval</string>
+    <string name="manageIntervalSets">Manage Interval Sets</string>
+    <string name="manageIntervalsSummary">Edit the interval sets you will be able to use during the workout using voice feedback.</string>
+    <string name="createIntervalSet">Create New Interval Set</string>
+    <string name="create">Create</string>
+    <string name="hintManageIntervalSets">Add an interval set to use it in your workouts.</string>
+    <string name="hintEditIntervalSet">Add intervals that will be spoken.</string>
+    <string name="interval_name">Name:</string>
+    <string name="length_in_minutes">Duration (minutes):</string>
+    <string name="enterName">Enter a name</string>
+    <string name="deleteIntervalSet">Delete Interval Set</string>
+    <string name="deleteIntervalSetMessage">Do you want to delete the interval set?</string>
+    <string name="selectIntervalSet">Select Interval Set</string>
+    <string name="intervalSetSelected">Interval Set selected</string>
+    <string name="intervalsIncludePauseTitle">Include Pause Time in Interval Training</string>
+    <string name="intervalsIncludePauseSummary">If activated, the intervals will continue even if you do pauses in your workout.</string>
+    <string name="intervalTraining">Interval Training</string>
+    <string name="intervalSet">Interval Set</string>
+    <string name="intervalSets">Interval Sets</string>
+    <string name="currentSpeed">Current Speed</string>
+    <string name="hintAddWorkout">Click on the plus icon to record or enter a workout.</string>
+    <string name="enterDescription">Enter a description</string>
+    <string name="avgSpeedInMotion">Avg. Speed (in Motion)</string>
+    <string name="avgSpeedTotalShort">Avg. Speed (Total)</string>
+    <string name="avgSpeedTotalLong">Average Speed in total</string>
+    <string name="preferencesUserInterfaceTitle">User Interface</string>
+    <string name="preferencesUserInterfaceSummary">Personalize the app</string>
+    <string name="preferencesRecordingTitle">Recording</string>
+    <string name="preferencesDebugTitle">Debug</string>
+    <string name="preferencesRecordingSummary">Manage the workout recording</string>
+    <string name="preferencesBackupTitle">Database</string>
+    <string name="preferencesBackupSummary">Backup/Restore your workout data</string>
+    <string name="preferencesCategoryAppearance">Appearance</string>
+    <string name="preferencesCategoryMap">Map</string>
+    <string name="preferenceDateFormat">Date Format</string>
+    <string name="preferenceTimeFormat">Time Format</string>
+    <string name="preferenceCurrentSpeedTime">Averaged speed time-span</string>
+    <string name="preferenceCurrentSpeedAverageTimeSummary">Replace current speed by an average</string>
+    <string name="preferenceCurrentSpeedAverageTimeTitle">Averaged speed</string>
+    <string name="preferenceUseAverageForCurrentSpeed">Use the average speed over a certain time instead of the last single speed record for the current speed calculation.</string>
+    <string name="preferenceFirstDayOfWeek">Week start</string>
+    <string name="workoutDiscarded">Workout discarded</string>
+    <string name="timeSecondsSingular">Second</string>
+    <string name="timeSecondsPlural">Seconds</string>
+    <string name="per">per</string>
+    <string name="unitMilesSingular">Mile</string>
+    <string name="unitMilesPlural">Miles</string>
+    <string name="unitYardsSingular">Yard</string>
+    <string name="unitYardsPlural">Yards</string>
+    <string name="unitMilesPerHour">Miles per Hour</string>
+    <string name="unitMetersPlural">Meters</string>
+    <string name="unitMetersSingular">Meter</string>
+    <string name="unitKilometersPlural">Kilometers</string>
+    <string name="unitKilometersSingular">Kilometer</string>
+    <string name="unitKilometersPerHour">Kilometers per hour</string>
+    <string name="unitMetersPerSecond">Meters per second</string>
+    <string name="unitHeartBeatsPerMinute">bpm</string>
+    <string name="unitHeartRateSensorBattery">%</string>
+    <string name="unitKcalLong">Calories</string>
+    <string name="unitHertzLong">Hertz</string>
+    <string name="unitKJoule">Kilojoule</string>
+    <string name="pref_energy_unit">Energy unit</string>
+    <string name="manageAutoTimeoutSummary">Edit the interval for automatic workout stop</string>
+    <string name="intervalAutoTimeoutTraining">Auto Workout Timeout</string>
+    <string name="pref_auto_timeout_title">Timespan for Auto-Stop</string>
+    <string name="currentTime">Current Time</string>
+    <!-- The placeholders are hours and minutes in a time string. In English the time 10:34 would be spoken as "10 34" -->
+    <string name="currentTimeStructure">%s %s</string>
+    <string name="unlockPhoneStopWorkout">Please unlock your phone to stop the recording</string>
+    <string name="no_workouts_recorded_for_this_activity">No workouts for this activity</string>
+    <string name="workout_statistics">Workout Statistics</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="avg">Avg</string>
+    <string name="sum">Sum</string>
+    <string name="workoutCount">Workout count</string>
+    <string name="statsFilter">Filter:</string>
+    <string name="help">Help</string>
+    <string name="calendarWeekYear">Calendar Week / Year</string>
+    <string name="dayInMonth">Day in Month</string>
+    <string name="singleWorkout">Single Workout</string>
+    <string name="workoutStatsHelpText">This screen shows historical stats of the workouts. To use it you first need to specify the workout type by clicking on it. Then set the information you want to know about and the time span. \n\nE.g. if you select \"Week\" as time span, all workouts of each week will be merged into one data point either calculating the average or sum of each week.</string>
+    <string name="replaceOrMergeMessage">Replace or merge database with backup file?</string>
+    <string name="replace">Replace</string>
+    <string name="merge">Merge</string>
+    <string name="workoutImported">Workout imported successfully</string>
+    <string name="announcementSuppressDuringCall">Suppress during call</string>
+    <string name="no_workouts_recorded">No workouts recorded</string>
+    <string name="sections">Sections</string>
+    <string name="speedLastMinute">Avg. Speed (Last Minute)</string>
+    <string name="speedLastMinuteSpoken">Speed within the last minute</string>
+    <string name="cannotFindWorkout">Cannot find workout</string>
+    <string name="editWorkout">Edit Workout</string>
+    <string name="editWorkoutStartEnd">Edit Start/End</string>
+    <string name="aboutTitle">About</string>
+    <string name="aboutVersion">Version</string>
+    <string name="aboutChangelog">Changelog</string>
+    <string name="aboutOpenSourceLibraries">Open source libraries</string>
+    <string name="aboutReportBug">Report a bug</string>
+    <string name="aboutLinks">Links</string>
+    <string name="aboutAuthor">Author</string>
+    <string name="aboutContributors">Contributors</string>
+    <string name="aboutSendFeedback">Send feedback to developer</string>
+    <string name="aboutSourceCode">View source code</string>
+    <string name="aboutUnlistedContributors">Thanks to all the unlisted contributors that helped to translate and extend FitoTrack!</string>
+    <string name="aboutHelpTranslating">Help translating</string>
+    <string name="aboutPrivacyPolicy">Privacy Policy</string>
+    <string name="editDisplayedInformation">Edit displayed information</string>
+    <string name="editDisplayedInformationHint">As long as the workout has not started, you can edit the displayed values by clicking on one of the four fields.</string>
+    <string name="noWorkoutStarted">No Workout Started</string>
+    <string name="unitFootPlural">Feet</string>
+    <string name="unitFootSingular">Foot</string>
+    <string name="recordingPermissionNotGrantedTitle">Permissions not granted</string>
+    <string name="recordingPermissionNotGrantedMessage">FitoTrack needs location permission to track your movement during your workout. FitoTrack also collects location data while the app is in the background or the screen is turned off to record your workouts. Location data always remains on your phone without your clear consent to share it.</string>
+    <string name="recordingActivityPermissionMessage">FitoTrack needs the permission to track your physical activity to record indoor workouts.</string>
+    <string name="actionGrant">Grant</string>
+    <string name="speechConfigNoSpeech">No Announcement</string>
+    <string name="recordingStateIdle">Idle</string>
+    <string name="recordingStateRunning">Running</string>
+    <string name="recordingStatePaused">Paused</string>
+    <string name="recordingStateStopped">Stopped</string>
+    <string name="importMultipleGpxFiles">Import multiple GPX-files</string>
+    <string name="importMultipleMessageSelectFolder">Please select a folder containing all the GPX-files you would like to import.</string>
+    <string name="importWorkoutMultipleQuestion">Do you want to import one GPX file or multiple ones?</string>
+    <string name="actionImport">Import</string>
+    <string name="actionImportMultiple">Import multiple</string>
+    <string name="importingFiles">Importing files</string>
+    <plurals name="importedWorkouts">
+        <item quantity="one">Imported one workout</item>
+        <item quantity="other">Imported %d workouts</item>
+    </plurals>
+    <string name="selectBluetoothDevice">Select Bluetooth device</string>
+    <string name="connectHeartRateDevice">Connect heart rate device</string>
+    <string name="showIntervals">Show intervals</string>
+    <string name="nothingSelected">Nothing selected</string>
+    <string name="inclination">Inclination</string>
+    <string name="heartRateNotAvailable">Heart rate is currently not available.</string>
+    <string name="resumeWorkout">Resume Workout</string>
+    <string name="autoPauseTitle">Auto pause</string>
+    <string name="autoPauseSummary">Automatically pause and continue workouts</string>
+    <string name="actionPause">Pause</string>
+    <string name="actionResume">Resume</string>
+    <string name="workoutPaused">Workout paused</string>
+    <string name="workoutResumed">Workout resumed</string>
+    <string name="workoutStopped">Workout stopped</string>
+    <string name="workoutStarted">Workout started</string>
+    <string name="notimeout">No Timeout</string>
+    <string name="prefShowOnLockScreenTitle">Visible on lock screen</string>
+    <string name="prefShowOnLockScreenSummary">Show workout info even if the device is locked.</string>
+    <string name="resumeWorkoutConfirmation">Resume this workout\? A pause from the time the workout was stopped will be added.</string>
+    <string name="hintManageWorkoutTypes">Click on the plus to add custom workout types.</string>
+    <string name="workoutTypeEditId">ID</string>
+    <string name="workoutTypeEditIdErrorCharacters">Allowed characters: a–z, A–Z, 0–9, _, -</string>
+    <string name="workoutTypeEditIdErrorEmpty">Please enter an ID</string>
+    <string name="workoutTypeEditIdErrorUnique">There is already a workout type using this ID</string>
+    <string name="workoutTypeEditName">Name</string>
+    <string name="workoutTypeEditNameError">Please enter a name</string>
+    <string name="workoutTypeEditMinDistance">Sample distance</string>
+    <string name="workoutTypeEditMET">MET</string>
+    <string name="preferenceCategoryVoiceFeedback">Voice feedback</string>
+    <string name="customWorkoutTypesTitle">Custom Workout Types</string>
+    <string name="runningMigrations">Running migrations</string>
+    <string name="actionSave">Save</string>
+    <string name="deleteWorkoutType">Delete Workout Type</string>
+    <string name="deleteWorkoutTypeConfirmation">Do you really want to delete this workout type?</string>
+    <string name="workoutTypeEditIcon">Icon</string>
+    <string name="editWorkoutType">Edit workout type</string>
+    <string name="pref_map_directory">Offline Map Directory</string>
+    <string name="pref_render_theme_style">Render Style</string>
+    <string name="preferenceCategoryRenderThemeCategories">Categories</string>
+    <string name="pref_render_theme_style_info">No menu available for selected theme.</string>
+    <string name="downloadMapsTitle">Download Maps</string>
+    <string name="downloadMapsSpecifyDirectory">Please specify a directory for offline maps first</string>
+    <string name="overwriteMapConfirmation">Overwrite the existing \\\"%s\\\" map file\?</string>
+    <string name="actionDownloadMap">Download map</string>
+    <string name="downloadMapConfirmation">Download the \\\"%s\\\" map file\?</string>
+    <string name="alreadyDownloading">A file is already being downloaded</string>
+    <string name="actionCancelDownload">Cancel download</string>
+    <string name="cancelDownloadConfirmation">Do you want to cancel the current download?</string>
+    <string name="downloadSuccess">Downloaded</string>
+    <string name="downloadFailed">Download failed</string>
+    <string name="downloadCanceled">Download canceled</string>
+    <string name="chooseMapHint">Please choose a map file</string>
+    <string name="intervalAutoStartDelayTraining">Auto Start Workout Delay</string>
+    <string name="manageAutoStartDelaySummary">Choose a default countdown for automatic workout start</string>
+    <string name="pref_auto_start_delay_title">Auto Start Countdown</string>
+    <string name="noAutoStartDelay">None</string>
+    <string name="customAutoStartDelay">Other</string>
+    <string name="autoStartCountdownMsg">Starting workout in</string>
+    <string name="autoStartCountdownMsgGps">Starting workout once GPS position is accurate enough</string>
+    <string name="autoStartCountdownMsgMove">Starting workout once you start moving</string>
+    <string name="workoutAutoStarted">Workout started automatically</string>
+    <string name="popup_auto_start_delay">With custom delay</string>
+    <string name="popup_auto_start">With default delay</string>
+    <string name="popup_auto_start_immediately">Start immediately</string>
+    <string name="popup_auto_start_on_move">When I start moving</string>
+    <string name="popup_auto_start_wait_for_gps">When GPS location is precise</string>
+    <string name="abort">Cancel</string>
+    <string name="workoutAutoStartAborted">Auto start aborted</string>
+    <string name="nfcStartTitle">Scan to start</string>
+    <string name="nfcStartSummary">If activated, you\'ll be able to start and stop workouts by scanning an NFC tag</string>
+    <string name="dialog_nfc_disabled_title">NFC is currently disabled</string>
+    <string name="dialog_nfc_disabled">In order to use NFC tags to start and stop workouts you need to enable NFC in device settings first</string>
+    <string name="action_nfc_settings">Go to NFC settings</string>
+    <string name="announcementCountdown">Auto Start Actions (countdown, state, etc.)</string>
+    <string name="scanning">Scanning…</string>
+    <string name="scanFailed">Scan failed</string>
+    <string name="moveStartOfWorkout">Cut start</string>
+    <string name="moveEndOfWorkout">Cut end</string>
+    <string name="actionApply">Apply</string>
+    <string name="launchError">Could not launch application</string>
+    <string name="editStartEndHelp">Select a position on the map or the diagram. Then click on one of the arrows to select a new starting or ending point. When you\'re done, click on the save icon to apply the changes.</string>
+    <string name="statistics">Statistics</string>
+    <!-- used for countdown voice announcements -->
+    <plurals name="seconds">
+        <item quantity="one"><xliff:g example="1" id="secs">%1$d</xliff:g> second</item>
+        <item quantity="other"><xliff:g example="12" id="secs">%1$d</xliff:g> seconds</item>
+    </plurals>
+    <!-- used for countdown voice announcements -->
+    <plurals name="minutes">
+        <item quantity="one"><xliff:g example="1" id="mins">%1$d</xliff:g> minute</item>
+        <item quantity="other"><xliff:g example="5" id="mins">%1$d</xliff:g> minutes</item>
+    </plurals>
+    <string name="upperPaceLimit">Upper pace limit</string>
+    <string name="lowerPaceLimit">Lower pace limit</string>
+    <!-- speed warning announcements -->
+    <string name="ttsBelowTargetSpeed">
+        Too slow
+    </string>
+    <string name="ttsAboveTargetSpeed">
+        Too fast
+    </string>
+    <!-- countdown announcement -->
+    <string name="ttsLongSecondCountdownAnnouncement">
+        <xliff:g example="5 seconds" id="secs">%1$s</xliff:g> until start
+    </string>
+    <!-- countdown announcement -->
+    <string name="ttsMinuteCountdownAnnouncement">
+        <xliff:g example="12 minutes" id="mins">%1$s</xliff:g> until start
+    </string>
+    <!-- countdown announcement -->
+    <string name="ttsMinuteSecondCountdownAnnouncement">
+        <xliff:g example="1 minute" id="mins">%1$s</xliff:g> and <xliff:g example="7 seconds" id="secs">%2$s</xliff:g> until start
+    </string>
+    <string name="manageAutoStartModeSummary">Change the mode of automatic workout start</string>
+    <string name="intervalAutoStartModeTraining">Auto Start Workout Mode</string>
+    <string name="pref_auto_start_mode_title">Auto-Start Mode</string>
+    <string name="pref_auto_start_mode_instant">Start immediately</string>
+    <string name="pref_auto_start_mode_wait_for_gps">Wait for accurate position</string>
+    <string name="pref_auto_start_mode_on_move">Wait for you to start moving</string>
+    <string name="pref_auto_start_mode_unknown">Unknown (do not use)</string>
+    <string name="selectColoring">Select coloring</string>
+    <string name="auto">Auto</string>
+    <string name="noColoring">No coloring</string>
+    <string name="pref_announcements_pace_control_summary">Warn when below or above a specified speed</string>
+    <string name="pref_announcements_pace_control_title">Pace-warnings</string>
+    <string name="invalidNumberFormat">Invalid number format.</string>
+    <string name="fileNotFound">File not found</string>
+    <string name="stats_explore_title">Explore</string>
+    <string name="stats_history_title">History</string>
+    <string name="stats_overview_title">Overview</string>
+    <string name="histogram">Histogram</string>
+    <string name="details">Details</string>
+    <string name="monthYear">Month / Year</string>
+    <string name="workoutAvgDistance">Average Distance</string>
+    <string name="workoutDistanceSum">Distance sum</string>
+    <string name="showWorkoutZoomControlsSummary">Enable zoom and pan controls in the map while recording GPS workouts</string>
+    <string name="showWorkoutZoomControlsTitle">Zooming and panning</string>
+    <string name="zoomWithVolumeButtonsSummary">Volume up and down controls zooming in and out</string>
+    <string name="zoomWithVolumeButtonsTitle">Zoom with volume buttons</string>
+    <string name="hidden">Hidden</string>
+    <!-- strings for string arrays -->
+    <string name="identifiable_visibility">Identifiable</string>
+    <string name="trackable_visibility">Trackable</string>
+    <string name="private_visibility">Private</string>
+    <string name="kcal_unit">kcal</string>
+    <string name="joule_unit">Joule</string>
+    <string name="always_mode">Always</string>
+    <string name="only_on_headphones_mode">Only on headphones</string>
+    <string name="mapnik_default_osm_mapstyle">Mapnik
+\nDefault OSM mapstyle</string>
+    <string name="humanitarian_clean_map_but_sometimes_not_available">Humanitarian
+\nClean map, but not always available</string>
+    <string name="offline_local_map_file_with_local_render_theme">Offline
+\nLocal map file with locally rendered theme</string>
+    <string name="always_track_style">Always</string>
+    <string name="in_the_diagram_screen_track_style">In the diagram screen</string>
+    <string name="never_track_style">Never</string>
+    <string name="purple_rain">Purple Rain</string>
+    <string name="pink_mist">Pink Mist</string>
+    <string name="rainbow_warrior">Rainbow Warrior</string>
+    <string name="height_map">Height Map</string>
+    <string name="bright_night">Bright Night</string>
+    <string name="mondriaan">Mondriaan</string>
+    <string name="system_theme">System</string>
+    <string name="light_theme">Light</string>
+    <string name="dark_theme">Dark</string>
+    <string name="metric_unit_system">Metric</string>
+    <string name="metric_with_m_s_unit_system">Metric with m/s</string>
+    <string name="imperial_unit_system">Imperial</string>
+    <string name="imperial_with_meters_unit_system">Imperial with meters</string>
+    <string name="us_customary_unit_system">US Customary</string>
+    <string name="system_default">System default</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="downloading">Downloading…</string>
+    <string name="exportTargetDirectory">Directory</string>
+    <string name="exportTargetHttpPost">HTTP POST request</string>
+    <string name="autoBackupTitle">Automatic backups</string>
+    <string name="workoutGPXExportTitle">Workout GPX exports</string>
+    <string name="hintConfigureExportTargets">Add targets files should be exported to.</string>
+    <string name="deleteExportTargetConfirmation">Delete this export target\?</string>
+    <string name="autoExportWorkoutsSummary">Export newly recorded workouts</string>
+    <string name="autoExportBackupTitle">Automatic app backups</string>
+    <string name="autoExportBackupSummary">Export backups automatically</string>
+    <string name="autoExportBackupExplanation">At the specified interval a backup will be exported here:</string>
+    <string name="autoExportWorkoutExplanation">After a new workout is recorded, a GPX-export will be saved here:</string>
+    <string name="exportIntervalTitle">Backup interval</string>
+    <string name="takeBackups1">Every day</string>
+    <string name="takeBackups2">Every second day</string>
+    <string name="takeBackups3">Every third day</string>
+    <string name="takeBackups7">Every week</string>
+    <string name="takeBackups14">Every second week</string>
+    <string name="selectExportTarget">Select export target</string>
+    <string name="configureHttpPostRequest">Configure HTTP POST request</string>
+    <string name="httpUrl">URL</string>
+    <string name="enterValidUrl">Enter a valid HTTP URL</string>
+    <string name="massExportGpxTitle">Export all workouts as GPX</string>
+    <string name="massExportGpxSummary">Creates a ZIP file containing all workouts as GPX documents</string>
+    <string name="debugShareLogsTitle">Share logs</string>
+    <string name="debugShareLogsSummary">Share logs that contain useful data to find bugs in the workout recorder. Usually they do not contain location data.</string>
+    <string name="debugSensorsTitle">Debug sensors</string>
+    <string name="debugSensorsSummary">Collect sensor data which is written into the log file</string>
+    <string name="debugPressureSensor">Debug pressure sensor</string>
+    <string name="calibrating">Calibrating</string>
+    <string name="noSensorAvailable">No sensor available</string>
+    <string name="show_sum">Show sum</string>
+    <plurals name="satelliteCount">
+        <item quantity="zero">No satellites</item>
+        <item quantity="one">One satellite</item>
+        <item quantity="other">%d satellites</item>
+    </plurals>
+</resources>

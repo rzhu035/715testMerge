@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.quiz.QuizActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/quiz_title"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            style="@style/title"
+            android:paddingTop="10dp"
+            android:text="Quiz" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+
+        <ProgressBar
+            android:id="@+id/quiz_countdown"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_header_relativelayout"
+            android:max="100"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/sec_remains"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/quiz_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:adjustViewBounds="true"
+            android:paddingTop="10dp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="This bird is:"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quizResult"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:text="correct! \n score: 100"
+                android:textAlignment="center"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/choice_1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="8dp"
+                android:textSize="20dp"></Button>
+
+            <Button
+                android:id="@+id/choice_2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="8dp"
+                android:textSize="20dp"></Button>
+
+            <Button
+                android:id="@+id/choice_3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="8dp"
+                android:textSize="20dp"></Button>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/back_to_workout"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="back"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+</RelativeLayout>
