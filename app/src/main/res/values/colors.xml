@@ -37,6 +37,7 @@
 
     <color name="colorPrimaryWaterSports">#0078B8</color>
     <color name="colorPrimaryDarkWaterSports">#00527E</color>
+    <color name="textBlack">#000000</color>
 
     <color name="textLighterBlack">#E6000000</color>
     <color name="textDarkerWhite">#E6FFFFFF</color>

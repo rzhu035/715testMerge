@@ -124,6 +124,14 @@ public class LauncherActivity extends Activity implements Migration.MigrationLis
     }
 
     private void start() {
+        if (true) {
+            Intent listWorkoutActivityIntent = new Intent(this, MainActivity.class);
+            listWorkoutActivityIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(listWorkoutActivityIntent);
+            finish();
+            overridePendingTransition(R.anim.fade_in, R.anim.stay);
+            return;
+        }
         BaseWorkoutRecorder recorder = Instance.getInstance(this).recorder;
         if (recorder.getState() == GpsWorkoutRecorder.RecordingState.PAUSED ||
                 recorder.getState() == GpsWorkoutRecorder.RecordingState.RUNNING) {

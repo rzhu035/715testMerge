@@ -119,7 +119,7 @@ public class QuizActivity extends FitoTrackActivity {
                 List<BirdData> responseBody = response.body();
 
                 ScientificNameConverter converter = new ScientificNameConverter();
-                
+
                 choiceOne.setText(converter.convertToCommonName(responseBody.get(0).getScientificName()));
                 choiceTwo.setText(converter.convertToCommonName(responseBody.get(1).getScientificName()));
                 choiceThree.setText(converter.convertToCommonName(responseBody.get(3).getScientificName()));
