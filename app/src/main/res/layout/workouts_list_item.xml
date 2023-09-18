@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/work_icon"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/person"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/work_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nov 7,2023 2:47:07 PM"
+        app:layout_constraintLeft_toRightOf="@id/work_icon"
+        app:layout_constraintTop_toTopOf="@id/work_icon"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/work_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Running"
+        app:layout_constraintLeft_toRightOf="@id/work_icon"
+        app:layout_constraintTop_toBottomOf="@id/work_time"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/work_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12.87KM"
+        app:layout_constraintLeft_toLeftOf="@id/work_icon"
+        app:layout_constraintTop_toBottomOf="@id/work_type"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#A9A9A9"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/work_distance_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2h 49m"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="10dp"
+        app:layout_constraintTop_toBottomOf="@id/work_type"
+        android:layout_marginTop="15dp"
+        android:textColor="#A9A9A9"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <View
+        app:layout_constraintTop_toBottomOf="@id/work_distance_time"
+        android:id="@+id/separator_work"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#A9A9A9 "/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -155,6 +155,7 @@
             android:screenOrientation="portrait" />
         <activity android:name=".ui.workout.EditWorkoutStartEndActivity" />
         <activity android:name=".ui.quiz.QuizActivity"/>
+        <activity android:name=".ui.MainActivity"/>
 
         <provider
             android:name="androidx.core.content.FileProvider"
